@@ -30,10 +30,17 @@ alias randpass="openssl rand -base64 12"
 
 ## App specific shortcuts
 
-alias sym='cd /c/git/TMS/src/Symfony'
+alias symw='cd /c/git/TMS/src/Symfony'
+alias sym='cd /opt/www/html/Symfony'
 alias symc='php app/console'
 alias symcc='php app/console cache:clear'
 alias symi='bin/vendors install'
+
+## sudo shortcuts
+alias sua='sudo su - apache'
+alias suj='sudo su - jenkins'
+alias sum='sudo su - mysql'
+
 
 # The essential git commands.
 alias gs='git status' #I use this obsessively, I feel blind without it
