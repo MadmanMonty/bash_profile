@@ -52,6 +52,18 @@ alias gd='git diff | $EDITOR'
 alias ga='git add'
 alias gl='git log'
 
+alias gchm='git checkout origin master'
+alias gchnm='git checkout origin nightly-master'
+alias gchr='git checkout origin release'
+
+alias gplm='git pull origin master'
+alias gplnm='git pull origin nightly-master'
+alias gplr='git pull origin release'
+
+alias gpsm='git push origin master'
+alias gpsnm='git push origin nightly-master'
+alias gpsr='git push origin release'
+
 # svn helpers
 # after using the wonderful git status, I grew tired of the clutter of svn externals
 alias st='svn status | grep -v "^X      " | grep -v "^Performing status on external item"'
