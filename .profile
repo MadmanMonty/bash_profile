@@ -64,6 +64,16 @@ alias gpsm='git push origin master'
 alias gpsnm='git push origin nightly-master'
 alias gpsr='git push origin release'
 
+alias gsplm='git submodule foreach git pull origin master'
+alias gspsm='git submodule foreach git push origin master'
+
+
+alias gpl='git pull'
+alias gps='git push'
+
+alias gspl='git submodule foreach git pull'
+alias gsps='git submodule foreach git push'
+
 # svn helpers
 # after using the wonderful git status, I grew tired of the clutter of svn externals
 alias st='svn status | grep -v "^X      " | grep -v "^Performing status on external item"'
