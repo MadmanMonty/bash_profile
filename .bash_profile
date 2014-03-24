@@ -52,20 +52,21 @@ alias gd='git diff | $EDITOR'
 alias ga='git add'
 alias gl='git log'
 
-alias gchm='git checkout origin master'
-alias gchnm='git checkout origin nightly-master'
-alias gchr='git checkout origin release'
+alias gchm='git checkout master'
+alias gchnm='git checkout nightly-master'
+alias gchr='git checkout release'
+alias gschm='git submodule foreach git checkout master'
 
-alias gplm='git pull origin master'
-alias gplnm='git pull origin nightly-master'
-alias gplr='git pull origin release'
+alias gplm='git pull master'
+alias gplnm='git pull nightly-master'
+alias gplr='git pull release'
 
-alias gpsm='git push origin master'
-alias gpsnm='git push origin nightly-master'
-alias gpsr='git push origin release'
+alias gpsm='git push master'
+alias gpsnm='git push nightly-master'
+alias gpsr='git push release'
 
-alias gsplm='git submodule foreach git pull origin master'
-alias gspsm='git submodule foreach git push origin master'
+alias gsplm='git submodule foreach git pull master'
+alias gspsm='git submodule foreach git push master'
 
 
 alias gpl='git pull'
