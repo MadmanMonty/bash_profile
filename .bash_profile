@@ -83,7 +83,7 @@ alias gmm='git merge master'
 
 alias gsub='git submodule foreach'
 
-
+alias gft='git fetch --tags'
 
 
 
