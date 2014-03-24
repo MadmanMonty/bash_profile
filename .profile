@@ -78,6 +78,11 @@ alias gsps='git submodule foreach git push'
 # after using the wonderful git status, I grew tired of the clutter of svn externals
 alias st='svn status | grep -v "^X      " | grep -v "^Performing status on external item"'
 
+alias gm='git merge'
+alias gmm='git merge master'
+
+alias gsub='git submodule foreach'
+
 
 
 
