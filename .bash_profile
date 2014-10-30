@@ -51,6 +51,7 @@ alias gca='git commit -v -a'
 alias gd='git diff | $EDITOR'
 alias ga='git add'
 alias gl='git log'
+alias gba='git branch -a'
 
 alias gchm='git checkout master'
 alias gchnm='git checkout nightly-master'
